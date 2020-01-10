@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SKY-JING/interview.git"
+    "url": "git+https://github.com/SKY-JING/play.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SKY-JING/interview/issues"
+    "url": "https://github.com/SKY-JING/play/issues"
   },
-  "homepage": "https://github.com/SKY-JING/interview#readme"
+  "homepage": "https://github.com/SKY-JING/play#readme"
 }
