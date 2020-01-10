@@ -1,0 +1,22 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "面试宝典",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gitbook serve",
+    "build": "gitbook build",
+    "release": "sh release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/interview/issues"
+  },
+  "homepage": "https://github.com/SKY-JING/interview#readme"
+}

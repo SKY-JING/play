@@ -1,0 +1,33 @@
+{
+  "name": "@merlion/sky-ui",
+  "version": "1.0.0",
+  "description": "vue ui组件",
+  "main": "index.js",
+  "scripts": {
+    "build:entry": "node build/buildEntry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/sky-ui.git"
+  },
+  "keywords": [
+    "merlion",
+    "sky",
+    "ui"
+  ],
+  "author": "merlion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/sky-ui/issues"
+  },
+  "homepage": "https://github.com/SKY-JING/sky-ui#readme",
+  "devDependencies": {
+    "fs-extra": "^8.0.1",
+    "typescript": "^3.5.1",
+    "uppercamelcase": "^3.0.0",
+    "vue": "^2.6.10"
+  },
+  "dependencies": {
+    "@merlion/icons": "^1.0.1"
+  }
+}

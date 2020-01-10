@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.4",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gitbook serve",
+    "build": "gitbook build",
+    "release": "sh release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/blog/issues"
+  },
+  "homepage": "https://github.com/SKY-JING/blog#readme"
+}

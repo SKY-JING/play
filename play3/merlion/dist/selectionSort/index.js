@@ -1,0 +1,1 @@
+"use strict";function selectionSort(e){for(var t,r,o=e.length,n=0;n<o-1;n++){for(var s=(t=n)+1;s<o;s++)e[s]<e[t]&&(t=s);r=e[n],e[n]=e[t],e[t]=r}return e}Object.defineProperty(exports,"__esModule",{value:!0}),exports.selectionSort=selectionSort;

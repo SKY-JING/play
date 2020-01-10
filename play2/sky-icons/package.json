@@ -1,0 +1,35 @@
+{
+  "name": "@merlion/icons",
+  "version": "1.0.1",
+  "description": "merlion icons",
+  "main": "./src/config.js",
+  "scripts": {
+    "export": "node ./build/export.js",
+    "build": "npm run export && gulp --gulpfile ./build/build-iconfont.js",
+    "release": "sh ./build/release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/sky-icons.git"
+  },
+  "keywords": [
+    "merlion",
+    "icons"
+  ],
+  "author": "merlion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/icons/sky-issues"
+  },
+  "homepage": "https://github.com/SKY-JING/sky-icons#readme",
+  "devDependencies": {
+    "fast-glob": "^2.2.7",
+    "fs-extra": "^8.0.1",
+    "gulp": "^4.0.2",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
+    "md5-file": "^4.0.0",
+    "shelljs": "^0.8.3",
+    "svgo": "^1.2.2"
+  }
+}

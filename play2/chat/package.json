@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat room",
+  "scripts": {
+    "dev": "node server.js",
+    "prd": "pm2 start server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/chat.git"
+  },
+  "dependencies": {
+    "mime": "^2.4.4",
+    "socket.io": "~0.9.6"
+  },
+  "keywords": [],
+  "author": "lijing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/chat/issues"
+  },
+  "homepage": "https://github.com/SKY-JING/chat#readme"
+}
